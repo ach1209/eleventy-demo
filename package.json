@@ -1,0 +1,21 @@
+{
+  "name": "learning-eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf _site",
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "author": "Anthony",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-navigation": "^0.3.5"
+  },
+  "dependencies": {
+    "modern-normalize": "^2.0.0"
+  }
+}

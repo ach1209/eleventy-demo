@@ -1,0 +1,13 @@
+<nav class="site-navigation">
+  <ul class="site-menu">
+    {% set navPages = collections.all | eleventyNavigation %}
+    {# navPages | dump | safe #}
+    {%- for page in navPages -%}
+    {%- if page.url -%}
+    <li class="site-menu__item">
+      <a href="{{ page.url }}" class="site-menu__item-link">{{ page.title }}</a>
+    </li>
+    {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</nav>
