@@ -8,7 +8,7 @@ collections:
   - name: "pages"
     label: "Pages"
     folder: "src"
-    create: "true"
+    create: true
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
