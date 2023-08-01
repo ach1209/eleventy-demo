@@ -1,6 +1,6 @@
 ---
 layout: 'base'
-title: Eleventy Lesson
+title: Eleventy Demo
 eleventyNavigation:
   key: Home
   order: 0
