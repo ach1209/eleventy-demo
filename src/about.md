@@ -1,9 +1,6 @@
 ---
 layout: base
 title: About
-image: ""
-imageAlt: ""
-imageType: null
 eleventyNavigation:
   key: About
   order: 1

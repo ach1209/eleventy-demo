@@ -12,7 +12,4 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Featured Image", name: "image", widget: "image", required: false}
-      - {label: "Alt Text", name: "imageAlt", widget: "string", required: false}
-      - {label: "Image Type", name: "imageType", widget: "select", options: ["jpeg", "png", "webp", "svg+xml"], required: false}
       - {label: "Body", name: "body", widget: "markdown"}
