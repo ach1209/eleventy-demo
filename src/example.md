@@ -1,5 +1,6 @@
 ---
 title: Example
+layout: base
 eleventyNavigation:
   key: Example
   order: 3
