@@ -12,6 +12,6 @@ eleventyNavigation:
 * HTML
 * CSS
 * JavaScript
-* Ninjucks
+* Nunjucks
 * 11ty
 * Decap CMS
