@@ -1,8 +1,8 @@
 ---
 layout: base
 title: About
-image: /assets/uploads/lum3n-ryqo8dhpg68-unsplash.jpg
-imageAlt: Peaches scattered across a table.
+image: /assets/uploads/freestocks-xsgcbgyqto4-unsplash.jpg
+imageAlt: Slices of oranges and grapefruit
 imageType: jpeg
 eleventyNavigation:
   key: About
