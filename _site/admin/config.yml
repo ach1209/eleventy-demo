@@ -11,5 +11,11 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Navigation"
+        name: "eleventyNavigation"
+        widget: "object"
+        fields:
+          - { label: "Menu Item Name", name: "key", widget: "string" }
+          - { label: "Order", name: "order", widget: "number", default: 0 }
