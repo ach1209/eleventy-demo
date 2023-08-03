@@ -13,6 +13,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Layout", name: "layout", widget: "select", options: ["base"] }
       - label: "Navigation"
         name: "eleventyNavigation"
         widget: "object"
